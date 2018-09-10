@@ -3,7 +3,7 @@
 @import "functions";
 
 // default color scheme
-$variant = "dark";
+$variant: "dark";
 $bg_color: if($variant == "dark", #444, #dedede);
 $fg_color: if($variant == "dark", #ddd, #555);
 $base_color: if($variant == "dark", #333, #fff);
